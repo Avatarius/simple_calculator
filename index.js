@@ -1,6 +1,7 @@
 `use strict`;
 
 const textfield = document.querySelector(".calculator__textfield");
+const calculator_element = document.querySelector('.calculator');
 
 class Calculator {
   constructor() {
@@ -126,3 +127,4 @@ for (let btn of button_list) {
     calculator.handleInput(event.target)
   );
 }
+
