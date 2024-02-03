@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/globals.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <main class="main">
+    <section class="calculator">
+      <form>
+        <input type="text" class="calculator__textfield" value="0" disabled>
+      </form>
+      <div class="splitter"></div>
+      <div class="calculator__button-container">
+        <button type="button" class="calculator__button">7</button>
+        <button type="button" class="calculator__button">8</button>
+        <button type="button" class="calculator__button">9</button>
+        <button type="button" class="calculator__button" data-action="add">+</button>
+        <button type="button" class="calculator__button">4</button>
+        <button type="button" class="calculator__button">5</button>
+        <button type="button" class="calculator__button">6</button>
+        <button type="button" class="calculator__button" data-action="subtract">-</button>
+        <button type="button" class="calculator__button">1</button>
+        <button type="button" class="calculator__button">2</button>
+        <button type="button" class="calculator__button">3</button>
+        <button type="button" class="calculator__button" data-action="multiply">×</button>
+        <button type="button" class="calculator__button">0</button>
+        <button type="button" class="calculator__button" data-action="decimal">∙</button>
+        <button type="button" class="calculator__button calculator__button_accent" data-action="clear">C</button>
+        <button type="button" class="calculator__button" data-action="divide">÷</button>
+        <button type="button" class="calculator__button calculator__button_square" data-action="calculate">=</button>
+      </div>
+    </section>
+  </main>
+  <script src="./index.js"></script>
+</body>
+</html>
